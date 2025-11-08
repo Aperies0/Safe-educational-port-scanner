@@ -21,3 +21,7 @@ By using this software, you agree:
 - You have permission to scan target systems
 - You understand local laws regarding network scanning
 - You accept all responsibility for your actions
+
+## Quick start (safe defaults)
+```bash
+python safe_scanner.py --target 127.0.0.1 --start-port 1 --end-port 1024
